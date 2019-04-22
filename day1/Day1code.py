@@ -1,4 +1,4 @@
-with open('/Users/shorya/Dropbox/programming_shorya/python_code/AdventofCode/inputday1.txt','r') as input:
+with open('inputday1.txt','r') as input:
     x = input.readlines()
     print(x)
 finishnum = 0
