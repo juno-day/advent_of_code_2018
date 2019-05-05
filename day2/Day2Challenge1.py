@@ -9,7 +9,7 @@ for line in lines:
     for x in line:
         letters.append(x)
     letters.pop()
-    len_of_word_letters = len(set(letters))
-    len_of_word = len(letters)
+    for x in letters:
+        print(letters)
 
 print(two_same_letters*three_same_letters)
