@@ -10,6 +10,7 @@ for line in lines:
         letters.append(x)
     letters.pop()
     for x in letters:
-        print(letters)
+        print(x)
+        
 
 print(two_same_letters*three_same_letters)
