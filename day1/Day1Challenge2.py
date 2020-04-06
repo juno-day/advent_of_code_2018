@@ -1,4 +1,5 @@
 import sys
+import notiflib
 with open('inputday1.txt','r') as input:
     x = input.readlines()
     print(x)
@@ -16,7 +17,9 @@ while done == False:
             finishnum = finishnum + z
             
         else:
-            z = int(z)
+            print(z)
+            z = int(z[0:])
+            
             finishnum = finishnum + z
         if finishnum in mylist:
             print(finishnum)
